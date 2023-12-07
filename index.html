@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>第9章関数　STEP1-中級問題</title>
+	<link rel = "stylesheet" href="website.css">
+</head>
+
+<body>
+	<div class = "title">
+	<h1 class = "daimei">プログラム復習コンテンツ</h1>
+	<div class="home"></div>
+	</div>
+
+	<h1 class = "daimei2">第9章関数　STEP1-中級問題</h1>
+
+	<div class = "yokonarabi">
+	<div class = "mondai">
+	<p class="midasi1">問題のコード</p>
+	<img src="9syou_1_tyuukyuu_mondai.png">
+	</div>
+
+	<div class = "gamen">
+	<p class="midasi2">プログラム実行画面</p>
+	<img src="9syou_1_tyuukyuu_kekka.png">
+	</div>
+	</div>
+
+	<p class="midasi3">問題文</p>
+	<div class = "mondaibun">
+	<p>上図は,複数の顔を表示させるプログラムです.</p>
+	<p>(1)for文を用いて,繰り返しのプログラムを埋めてください.</p>
+	<p>　  ただし,整数型の変数をxとして初期値は0,xが400以下の場合実行し,xが100ずつ増加するようにしてください.</p>
+	<p>(2)face関数を用いて,座標(x,30)の位置に顔を表示させるプログラムを埋めてください.</p>
+	<p>(3)整数型の２つのパラメータx,yを使ってface()関数を導入してください.</p>
+	<p>(4)デフォルトの座標系である座標(0,0)を右にxピクセル,左にyピクセル移動させてください.</p>
+	<input type="checkbox" id="check1">
+	<label class="check1" for="check1">ヒント</label>
+	<div class = "hinto">
+	<p>(4)デフォルトの座標系を変更する関数　translate();</p>
+	</div>
+	</div>
+	
+	<p class="midasi4">解答欄</p>
+	<div class = "kaitouran">
+	<p>
+	<label>(1)<input type="text" id="one" size="80" placeholder="解答を入力"></label>
+	<p id = "text1"></p>
+	</p>
+
+
+	<p>
+	<label>(2)<input type="text" id="two" size="80" placeholder="解答を入力"</label>
+	<p id = "text2"></p>
+	</p>
+
+	<p>
+	<label>(3)<input type="text" id="three" size="80" placeholder="解答を入力"</label>
+	<p id = "text3"></p>
+	</p>
+
+	<p>
+	<label>(4)<input type="text" id="four" size="80" placeholder="解答を入力"</label>
+	<p id = "text4"></p>
+	</p>
+
+	<p>(1)for(int x=0; x<=400; x+=100)</p>
+	<p>(2)face(x,30);</p>
+	<p>(3)void face(int x, int y)</p>
+	<p>(4)translate(x, y);</p>
+
+	<input type="button" id="btn" value="判定">
+	
+	
+	</div>
+
+	<script src = "main.js"></script>	
+</body>
+
+</html>
